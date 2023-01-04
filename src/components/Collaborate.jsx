@@ -1,4 +1,6 @@
 import React from "react";
+import linkedInIcon from "../assets/icons/icons8-linkedin-circled.svg";
+import twitterIcon from "../assets/icons/icons8-twitter.svg";
 
 const Collaborate = () => {
   return (
@@ -13,8 +15,24 @@ const Collaborate = () => {
           finneykoshy@gmail.com
         </h2>
         <div className="flex space-x-3">
-          <div className="w-8 h-8 bg-gray-300">L</div>
-          <div className="w-8 h-8 bg-gray-300">T</div>
+          <div className="w-8 h-8 m-1">
+            <a
+              href="https://www.linkedin.com/in/finney-koshy-73913b248"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedInIcon} alt="LinkedIn Icon" />
+            </a>
+          </div>
+          <div className="w-8 h-8 m-1 mt-2">
+            <a
+              href="https://twitter.com/Finnius25"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={twitterIcon} alt="Twitter Icon" />
+            </a>
+          </div>
         </div>
         <p className="py-5 leading-relaxed text-xl font-open font-light">
           Let’s talk. I want to get a job as software. So hire me. Thank you

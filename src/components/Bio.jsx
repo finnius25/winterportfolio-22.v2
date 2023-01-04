@@ -3,7 +3,7 @@ import React from "react";
 const Bio = () => {
   return (
     <div className="font-open px-5">
-      <h1 className="text-5xl font-semibold py-7">The Finney</h1>
+      <h1 className="text-5xl font-semibold py-7">Finney Koshy</h1>
       <p className="text-xl leading-loose">
         I’ll be honest. I want to change the world. I want to make an impact. I
         think I was born to be great in this era. I mean why not me? I play the

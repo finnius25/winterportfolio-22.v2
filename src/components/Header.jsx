@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import arrowIcon from "../assets/icons/arrow.svg";
 
 const Header = () => {
   return (
@@ -12,8 +13,9 @@ const Header = () => {
         </Link>
       </div>
       <div>
-        <Link to="/About">
+        <Link to="/About" className="flex items-center">
           <h1 className="text-xl pt-2">Me</h1>
+          <img src={arrowIcon} alt="" className="w-6 h-6 mt-2" />
         </Link>
       </div>
     </div>
