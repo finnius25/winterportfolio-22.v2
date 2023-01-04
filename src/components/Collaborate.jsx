@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import linkedInIcon from "../assets/icons/icons8-linkedin-circled.svg";
 import twitterIcon from "../assets/icons/icons8-twitter.svg";
 
@@ -11,7 +12,7 @@ const Collaborate = () => {
       </div>
 
       <div className="px-7">
-        <h2 className="font-lato font-semibold text-3xl">
+        <h2 className="font-lato font-semibold text-3xl md:text-4xl lg:text-5xl">
           finneykoshy@gmail.com
         </h2>
         <div className="flex space-x-3">
@@ -35,10 +36,13 @@ const Collaborate = () => {
           </div>
         </div>
         <p className="py-5 leading-relaxed text-xl font-open font-light">
-          Let’s talk. I want to get a job as software. So hire me. Thank you
+          Let’s talk. I want to get a job as software engineer. So hire me.
+          Thank you
         </p>
-        <div>
-          <p className="font-open font-light text-base">About Me</p>
+        <div className="w-20">
+          <Link to="/About" className="underline">
+            <p className="font-open font-light text-base">About Me</p>
+          </Link>
         </div>
       </div>
     </div>

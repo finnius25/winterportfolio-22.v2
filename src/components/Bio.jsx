@@ -2,8 +2,13 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <div className="font-open px-5">
-      <h1 className="text-5xl font-semibold py-7">Finney Koshy</h1>
+    <div className="font-open p-5 lg:px-40 xl:px-60">
+      <div className="md:flex justify-center items-center space-x-10">
+        <h1 className="text-5xl font-semibold py-10">Finney Koshy</h1>
+        <div className="bg-gray-300 w-60 h-60 hidden md:flex md:m-10">
+          Image Placeholder
+        </div>
+      </div>
       <p className="text-xl leading-loose">
         I’ll be honest. I want to change the world. I want to make an impact. I
         think I was born to be great in this era. I mean why not me? I play the
