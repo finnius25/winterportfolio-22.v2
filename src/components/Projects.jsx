@@ -1,19 +1,17 @@
 import React from "react";
-import SterlingThumbnail from "../assets/SterlingThumbnail.png";
-import SupachatThumbnail from "../assets/SupachatThumbnail.png";
-import GravegoThumbnail from "../assets/GravegoThumbnail.png";
+import SterlingThumbnail from "../assets/Dribbble shot HD - 7.png";
 
 const Projects = () => {
   return (
-    <div>
-      <div className="pl-3 space-x-4 flex">
-        <div className="bg-black h-8 w-0.5"></div>
-        <h2 className="text-sm py-2 font-lato font-normal">PROJECTS</h2>
+    <div className="xl:px-10">
+      <div className="pl-3 space-x-4 flex items-center">
+        <div className="bg-black h-2 w-2 rounded-xl"></div>
+        <h2 className="text-md py-2 font-lato font-normal">PROJECTS</h2>
       </div>
 
       <div className="space-y-16 md:space-y-40 mb-32">
         {/* Sterling */}
-        <div className="flex flex-col space-y-5 px-5 font-open md:flex-row ">
+        {/* <div className="flex flex-col space-y-5 px-5 font-open md:flex-row ">
           <img
             src={SterlingThumbnail}
             alt="Thumbnail for app called Sterling"
@@ -27,38 +25,17 @@ const Projects = () => {
               expenses. Shout out to chatgpt.
             </p>
           </div>
-        </div>
-
-        {/* SupaChat */}
-        <div className="flex flex-col space-y-8 px-5 font-open md:flex-row-reverse">
-          <img
-            src={SupachatThumbnail}
-            alt="Thumbnail for an app called SupaChat"
-            className="w-full h-full"
-          />
-          <div className="flex flex-col px-10 space-y-5">
-            <h1 className="font-bold text-3xl">SupaChat</h1>
-            <p className="font-light text-xl leading-relaxed">
-              Building a budgeting using React and firebase. I hope to help
-              people build financial accountability.
-            </p>
-          </div>
-        </div>
-
-        {/* Grave Go */}
-        <div className="flex flex-col space-y-8 px-5 font-open md:flex-row">
-          <img
-            src={GravegoThumbnail}
-            alt="Thumbnail for an app called GraveGo"
-            className="w-full h-full"
-          />
-          <div className="flex flex-col px-10 space-y-5">
-            <h1 className="font-bold text-3xl">Grave Go</h1>
-            <p className="font-light text-xl leading-relaxed">
-              Building a budgeting using React and firebase. I hope to help
-              people build financial accountability and help them track their
-              expenses. Shout out to chatgpt.
-            </p>
+        </div> */}
+        <div className="flex justify-center">
+          <div className="w-6/12 object-contain">
+            <a href="#" className="relative">
+              <img
+                src={SterlingThumbnail}
+                alt=""
+                className="w-full hover:blur-lg "
+              />
+              <h1 className="absolute top-2 text-2xl">Sterling</h1>
+            </a>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React from "react";
+import heroimg from "../assets/heroimg.png";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center md:m-32 lg:mb-40">
-      <div className="bg-gray-800 w-96 h-96 hidden lg:flex text-white">
-        Image Placeholder
+    <div className="flex justify-center items-center md:m-32 lg:mb-40 ">
+      <div className="w-150 h-50 hidden lg:flex">
+        <img src={heroimg} alt="" className="w-full h-full object-contain" />
       </div>
       <div className="m-10 md:mr-0 mb-32 flex flex-col font-open space-y-5">
         <h1 className="text-5xl leading-normal font-semibold">
