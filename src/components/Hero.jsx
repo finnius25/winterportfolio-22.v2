@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className="text-5xl leading-normal font-semibold">
           Hi, I’m Finney Koshy 👋
         </h1>
-        <p className="text-xl font-light leading-relaxed md:w-8/12 ">
+        <p className="text-xl font-light leading-loose md:w-8/12 ">
           Exploring aesthetic designs, Constructing creative solutions, and
           Dabbling in entrepreneurialism. Based in Dallas, TX. Currenltly
           building <strong>Sterling</strong>

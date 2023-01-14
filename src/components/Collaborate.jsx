@@ -7,12 +7,12 @@ const Collaborate = () => {
   return (
     <div className="w-screen flex flex-col items-center lg:justify-center px-5">
       <div className="lg:w-5/6">
-        <div className="pl-3 space-x-4 flex mb-2">
+        <div className="space-x-4 flex mb-2">
           <div className="bg-black h-8 w-0.5"></div>
           <h2 className="text-sm py-2 font-lato font-normal">COLLABORATE</h2>
         </div>
 
-        <div className="px-7">
+        <div>
           <h2 className="font-lato font-semibold text-3xl md:text-4xl lg:text-5xl">
             finneykoshy@gmail.com
           </h2>
