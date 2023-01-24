@@ -36,10 +36,10 @@ const Collaborate = () => {
               </a>
             </div>
           </div>
-          <p className="py-5 leading-relaxed text-xl font-open font-light">
+          {/* <p className="py-5 leading-relaxed text-xl font-open font-light">
             Let’s talk. I want to get a job as software engineer. So hire me.
             Thank you
-          </p>
+          </p> */}
           <div className="w-20">
             <Link to="/About" className="underline">
               <p className="font-open font-light text-base">About Me</p>
