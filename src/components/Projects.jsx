@@ -21,14 +21,14 @@ const Projects = () => {
           thumbnail={SterlingThumbnail}
           projectTitle={sterlingTitle}
           projectDescription={sterlingDescription}
-          flexPosition={"flex-row"}
+          flexRow={true}
         />
         {/* The Startup Glossary */}
         <ProjectSub
           thumbnail={AloaThumbnail}
           projectTitle={aloaTitle}
           projectDescription={aloaDescription}
-          flexPosition={"flex-row-reverse"}
+          flexRow={false}
         />
       </div>
     </div>

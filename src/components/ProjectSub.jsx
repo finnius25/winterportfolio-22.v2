@@ -4,10 +4,14 @@ const ProjectSub = ({
   thumbnail,
   projectTitle,
   projectDescription,
-  flexPosition,
+  flexRow,
 }) => {
   return (
-    <div className="flex flex-col space-y-20 xl:flex-row xl:space-x-10  xl:space-y-0 w-full">
+    <div
+      className={`flex flex-col space-y-20 xl:space-y-0 w-full xl:${
+        flexRow ? "flex-row" : "flex-row-reverse"
+      }`}
+    >
       <div className="w-full h-3/6 xl:h-5/6 max-w-xl object-contain cursor-pointer">
         <img
           src={thumbnail}
