@@ -12,9 +12,9 @@ const Hero = () => {
           Hi, I’m Finney Koshy 👋
         </h1>
         <p className="text-xl font-light leading-loose md:w-8/12 ">
-          Exploring aesthetic designs, Constructing creative solutions, and
-          Dabbling in entrepreneurialism. Based in Dallas, TX. Currenltly
-          building <strong>Sterling</strong>
+          <em>Exploring</em> aesthetic designs, <em>Constructing</em> creative
+          solutions, and <em>Dabbling</em> in entrepreneurialism. Based in
+          Dallas, TX. Currenltly building <strong>Sterling</strong>.
         </p>
       </div>
     </div>
