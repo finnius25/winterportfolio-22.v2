@@ -5,8 +5,8 @@ import twitterIcon from "../assets/icons/icons8-twitter.svg";
 
 const Collaborate = () => {
   return (
-    <div className="w-screen flex flex-col items-center lg:justify-center px-5">
-      <div className="lg:w-5/6">
+    <div className="w-full flex flex-col items-center lg:justify-center mt-20">
+      <div className="lg:w-9/12">
         <div className="space-x-4 flex mb-2">
           <div className="bg-black h-8 w-0.5"></div>
           <h2 className="text-sm py-2 font-lato font-normal">COLLABORATE</h2>
@@ -40,11 +40,11 @@ const Collaborate = () => {
             Let’s talk. I want to get a job as software engineer. So hire me.
             Thank you
           </p> */}
-          <div className="w-20">
+          {/* <div className="w-20">
             <Link to="/About" className="underline">
               <p className="font-open font-light text-base">About Me</p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
