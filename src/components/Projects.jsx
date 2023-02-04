@@ -1,7 +1,6 @@
 import React from "react";
 import SterlingThumbnail from "../assets/sterlingthumb.png";
 import ProjectSub from "./ProjectSub";
-import AloaThumbnail from "../assets/StartupGlossary.png";
 import GlossaryScreen from "../assets/GlossaryScreen.png";
 
 const Projects = () => {
