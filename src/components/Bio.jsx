@@ -3,7 +3,7 @@ import bioPic from "../assets/bio.jpeg";
 
 const Bio = () => {
   return (
-    <div className="font-open w-full flex flex-row-reverse justify-center my-32">
+    <div className="font-open w-full flex flex-row-reverse justify-center my-20 lg:my-32 px-2">
       <div className="h-full flex flex-col items-start">
         <div className="w-80 h-auto hidden md:flex md:m-10 md:mt-32">
           <img
@@ -31,6 +31,10 @@ const Bio = () => {
           SEO. Now my <em>life's</em> mission is to nail the algorithm. I pledge
           my allegiance to the AI as long as I get the top ranking page on
           google.
+          <br />
+          <br />I love eating cereal and playing video games. My favorite food
+          is chicken curry. If you have a multi-million dollar app idea, hit me
+          up!
         </p>
       </div>
     </div>

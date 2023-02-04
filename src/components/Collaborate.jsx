@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import linkedInIcon from "../assets/icons/icons8-linkedin-circled.svg";
 import twitterIcon from "../assets/icons/icons8-twitter.svg";
 
 const Collaborate = () => {
   return (
-    <div className="w-full flex flex-col items-center lg:justify-center mt-20">
+    <div className="w-full flex flex-col lg:items-center lg:justify-center mt-20 px-4 lg:px-0">
       <div className="lg:w-9/12">
         <div className="space-x-4 flex mb-2">
           <div className="bg-black h-8 w-0.5"></div>

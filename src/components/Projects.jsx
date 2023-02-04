@@ -2,6 +2,7 @@ import React from "react";
 import SterlingThumbnail from "../assets/sterlingthumb.png";
 import ProjectSub from "./ProjectSub";
 import AloaThumbnail from "../assets/StartupGlossary.png";
+import GlossaryScreen from "../assets/GlossaryScreen.png";
 
 const Projects = () => {
   const sterlingDescription =
@@ -28,7 +29,7 @@ const Projects = () => {
       />
       {/* The Startup Glossary */}
       <ProjectSub
-        thumbnail={AloaThumbnail}
+        thumbnail={GlossaryScreen}
         projectTitle={aloaTitle}
         projectDescription={aloaDescription}
         flexRow={true}
