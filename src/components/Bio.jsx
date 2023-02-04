@@ -28,9 +28,7 @@ const Bio = () => {
           help people build good financial habits with this app. I also do
           software freelancing, for example I recently built a headless CMS,
           with Sanity and Next. I didn't know blogs were so cool until I learned
-          SEO. Now my <em>life's</em> mission is to nail the algorithm. I pledge
-          my allegiance to the AI as long as I get the top ranking page on
-          google.
+          SEO. Now my <em>life's</em> mission is to nail the algorithm.
           <br />
           <br />I love eating cereal and playing video games. My favorite food
           is chicken curry. If you have a multi-million dollar app idea, hit me
