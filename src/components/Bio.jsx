@@ -14,25 +14,43 @@ const Bio = () => {
         </div>
       </div>
       <div className="flex flex-col w-full lg:w-3/6 ">
-        <h1 className="text-5xl font-semibold py-10">Finney Koshy</h1>
-        <p className="text-xl leading-loose">
-          I was inspiried to learn coding after years of watching movies of
+        <h1 className="text-5xl font-semibold py-10 px-3 xl:px-0">
+          Finney Koshy
+        </h1>
+        <p className="text-xl leading-loose px-4 xl:px-0">
+          I was inspired to learn coding after years of watching movies of
           hackers shutting down power grids and opening vaults. Little did I
           know, I would spend my days centering divs. Turns out I'm better at
-          building websites than breaking into banks. I haven't tried the latter
-          yet...
+          building web applications than breaking into banks. I haven't tried
+          the latter yet...
           <br />
           <br />
-          I'm currently building my first bootstrapped project, a budgeting app
-          called <strong>Sterling</strong>. With rising inflation, my goal is
-          help people build good financial habits with this app. I also do
-          software freelancing, for example I recently built a headless CMS,
-          with Sanity and Next. I didn't know blogs were so cool until I learned
-          SEO. Now my <em>life's</em> mission is to nail the algorithm.
+          My journey started on a coding website called{" "}
+          <span>
+            <a href="https://www.theodinproject.com/">
+              <em>The Odin Project</em>
+            </a>
+          </span>{" "}
+          where I learned how to write my first 'Hello World'. Fast forward 2
+          years later, I'm currently building my first bootstrapped company, a
+          budgeting app called Sterling. My aim is to tackle problems people
+          have with managing money by helping them accumulate good financial
+          habits through accountability, visibility, and repetition.
           <br />
-          <br />I love eating cereal and playing video games. My favorite food
-          is chicken curry. If you have a multi-million dollar app idea, hit me
-          up!
+          <br />
+          As a growing developer, I also do freelancing and contribute,
+          constantly improving my skills and knowledge, like this headless CMS I
+          built with Sanity and Next.
+          <span>
+            <a href="https://the-startup-glossary.vercel.app/">
+              {" "}
+              <strong>Check it out here.</strong>
+            </a>
+          </span>
+          <br />
+          <br />
+          My hobbies are hitting the gym and coding. If you have an interesting
+          app idea, hit me up!
         </p>
       </div>
     </div>

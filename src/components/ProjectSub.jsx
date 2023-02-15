@@ -14,12 +14,14 @@ const ProjectSub = ({
         flexRow ? "xl:flex-row" : "xl:flex-row-reverse"
       }`}
     >
-      <div className=" md:w-[35rem] flex flex-col justify-center items-center drop-shadow-2xl cursor-pointer">
-        <img
-          src={thumbnail}
-          alt="project thumbnail"
-          className="w-full h-auto max-w-full object-contain rounded-2xl"
-        />
+      <div className=" md:w-[35rem] flex flex-col justify-center items-center drop-shadow-2xl">
+        <a href={link}>
+          <img
+            src={thumbnail}
+            alt="project thumbnail"
+            className="w-full h-auto max-w-full object-contain rounded-2xl"
+          />
+        </a>
       </div>
       <div className="flex flex-col gap-3">
         <h1 className="font-bold text-3xl">{projectTitle}</h1>

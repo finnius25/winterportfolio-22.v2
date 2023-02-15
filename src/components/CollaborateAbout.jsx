@@ -4,7 +4,7 @@ import twitterIcon from "../assets/icons/icons8-twitter.svg";
 
 const CollaborateAbout = () => {
   return (
-    <div className="w-10/12 flex items-center justify-center mt-10 lg:mt-20 px-2">
+    <div className="w-10/12 flex items-center justify-center mt-10 lg:mt-20 px-5 xl:px-2">
       <div className="w-full md:w-11/12 lg:w-9/12">
         <div className="font-open font-semibold text-xl">
           Would love to talk more,{" "}

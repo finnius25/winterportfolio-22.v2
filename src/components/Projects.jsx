@@ -1,14 +1,15 @@
 import React from "react";
 import SterlingThumbnail from "../assets/sterlingthumb.png";
 import ProjectSub from "./ProjectSub";
-import GlossaryScreen from "../assets/GlossaryScreen.png";
+import theStartupGlossary from "../assets/theStartupGlossary.png";
 
 const Projects = () => {
   const sterlingDescription =
-    "A budgeting app to help you build financial habits.";
+    "An all in one budgeting app to help you build financial habits. Built using React.js & Firebase";
   const sterlingTitle = "Sterling";
   const aloaTitle = "The Startup Glossary";
-  const aloaDescription = "Headless CMS built with Next.js & Sanity";
+  const aloaDescription =
+    "A non-technical startup guide to everything software. Built using Next.js & Sanity.io";
   return (
     <div className="flex flex-col items-center justify-around gap-44 py-20">
       {/* Section Divider */}
@@ -28,11 +29,12 @@ const Projects = () => {
       />
       {/* The Startup Glossary */}
       <ProjectSub
-        thumbnail={GlossaryScreen}
+        thumbnail={theStartupGlossary}
         projectTitle={aloaTitle}
         projectDescription={aloaDescription}
         flexRow={true}
-        projectAction={"Coming Soon!"}
+        projectAction={"Check it out"}
+        link={"https://the-startup-glossary.vercel.app/"}
       />
     </div>
   );
