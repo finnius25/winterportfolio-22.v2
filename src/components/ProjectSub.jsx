@@ -25,9 +25,7 @@ const ProjectSub = ({
       </div>
       <div className="flex flex-col gap-3">
         <h1 className="font-bold text-3xl">{projectTitle}</h1>
-        <p className="font-light text-xl leading-relaxed">
-          {projectDescription}
-        </p>
+        {projectDescription}
         <a href={link}>
           <h3 className="font-bold underline">{projectAction}</h3>
         </a>

@@ -2,14 +2,28 @@ import React from "react";
 import SterlingThumbnail from "../assets/sterlingthumb.png";
 import ProjectSub from "./ProjectSub";
 import theStartupGlossary from "../assets/theStartupGlossary.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Projects = () => {
-  const sterlingDescription =
-    "An all in one budgeting app to help you build financial habits. Built using React.js & Firebase";
-  const sterlingTitle = "Sterling";
-  const aloaTitle = "The Startup Glossary";
-  const aloaDescription =
-    "A non-technical startup guide to everything software. Built using Next.js & Sanity.io";
+  const sterlingDescription = (
+    <p className="font-light text-xl leading-relaxed">
+      An all in one budgeting app to help you build financial habits. Built
+      using React.js & Firebase
+    </p>
+  );
+  const sterlingTitle = (
+    <p className="font-light text-xl leading-relaxed">Sterling</p>
+  );
+  const aloaTitle = (
+    <p className="font-light text-xl leading-relaxed">The Startup Glossary</p>
+  );
+  const aloaDescription = (
+    <p className="font-light text-xl leading-relaxed">
+      A non-technical startup guide to everything software. Built using{" "}
+      <strong className="font-bold">Next.js</strong> &{" "}
+      <strong className="font-bold">Sanity.io</strong>
+    </p>
+  );
   return (
     <div className="flex flex-col items-center justify-around gap-44 py-20">
       {/* Section Divider */}
