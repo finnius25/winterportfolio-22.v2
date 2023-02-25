@@ -2,7 +2,6 @@ import React from "react";
 import SterlingThumbnail from "../assets/sterlingthumb.png";
 import ProjectSub from "./ProjectSub";
 import theStartupGlossary from "../assets/theStartupGlossary.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Projects = () => {
   const sterlingDescription = (
