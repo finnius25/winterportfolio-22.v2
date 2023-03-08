@@ -33,6 +33,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Sterling */}
+
       <ProjectSub
         thumbnail={SterlingThumbnail}
         projectTitle={sterlingTitle}
@@ -40,6 +41,7 @@ const Projects = () => {
         flexRow={false}
         projectAction={"Coming Soon!"}
       />
+
       {/* The Startup Glossary */}
       <ProjectSub
         thumbnail={theStartupGlossary}

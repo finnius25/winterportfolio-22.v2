@@ -12,17 +12,24 @@ const Hero = () => {
         <motion.div
           initial={{ x: -60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.9 }}
+          transition={{ delay: 0.6, duration: 0.7 }}
         >
           <h1 className="text-5xl leading-normal font-semibold">
-            Hi, I’m Finney Koshy 👋
+            Hi, I’m Finney Koshy{" "}
+            <motion.div
+              animate={{ rotate: [null, 5, -5, 5, 0] }}
+              transition={{ duration: 0.6, delay: 2 }}
+              className="inline-block"
+            >
+              👋
+            </motion.div>
           </h1>
         </motion.div>
 
         <motion.div
           initial={{ x: -60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.7, duration: 0.8 }}
+          transition={{ delay: 0.6, duration: 0.7 }}
         >
           <p className="text-xl font-light leading-loose md:w-8/12 ">
             <em>Exploring</em> aesthetic designs, <em>Constructing</em> creative

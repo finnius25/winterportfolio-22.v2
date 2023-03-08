@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const ProjectSub = ({
   thumbnail,
@@ -9,10 +10,14 @@ const ProjectSub = ({
   projectAction,
 }) => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.2, delay: 0.3 }}
+      viewport={{ once: true }}
       className={`flex flex-col w-11/12 md:10/12 xl:w-9/12 gap-10 ${
         flexRow ? "xl:flex-row" : "xl:flex-row-reverse"
-      }`}
+      } items-center`}
     >
       <div className=" md:w-[35rem] flex flex-col justify-center items-center drop-shadow-2xl">
         <a href={link}>
@@ -30,7 +35,7 @@ const ProjectSub = ({
           <h3 className="font-bold underline">{projectAction}</h3>
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
