@@ -19,19 +19,26 @@ const ProjectSub = ({
         flexRow ? "xl:flex-row" : "xl:flex-row-reverse"
       } items-center`}
     >
-      <div className=" md:w-[35rem] flex flex-col justify-center items-center drop-shadow-2xl">
-        <a href={link}>
+      <motion.div
+        whileHover={{ scale: 1.03, transition: { duration: 0.2 } }}
+        className=" sm:w-5/12 flex flex-col justify-center items-center drop-shadow-2xl"
+      >
+        <a href={link} target="_blank" rel="noreferrer">
           <img
             src={thumbnail}
             alt="project thumbnail"
-            className="w-full h-auto max-w-full object-contain rounded-2xl"
+            className="sm:w-[35rem] sm:h-[20rem] object-contain rounded-2xl"
           />
         </a>
-      </div>
-      <div className="flex flex-col gap-3">
-        <h1 className="font-bold text-3xl">{projectTitle}</h1>
+      </motion.div>
+      <div className="flex flex-col gap-3 sm:w-7/12">
+        <a href={link} target="_blank" rel="noreferrer">
+          {projectTitle}
+        </a>
+
         {projectDescription}
-        <a href={link}>
+
+        <a href={link} target="_blank" rel="noreferrer">
           <h3 className="font-bold underline">{projectAction}</h3>
         </a>
       </div>
